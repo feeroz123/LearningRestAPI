@@ -21,7 +21,7 @@ public class GetRequest_Demo1 {
 			.param("units", "imperial")
 			.param("origins", "Bangalore")
 			.param("destinations", "Lucknow")
-			.param("key", "AIzaSyAiwRTkeB_i4vVaI2JOfzLHRggLRjUSvsM")
+			.param("key", "")
 		.when()
 			.get("/distancematrix/json")
 		.then()
@@ -34,7 +34,7 @@ public class GetRequest_Demo1 {
 				.param("units", "imperial")
 				.param("origins", "Bangalore")
 				.param("destinations", "Lucknow")
-				.param("key", "AIzaSyAiwRTkeB_i4vVaI2JOfzLHRggLRjUSvsM")
+				.param("key", "")
 			.when()
 				.get("/distancematrix/json");
 		
