@@ -23,7 +23,7 @@ public class GetRequest_Demo {
 			.param("units", "imperial")
 			.param("origins", "Washington,DC")
 			.param("destinations", "New+York+City,NY")
-			.param("key", "AIzaSyAiwRTkeB_i4vVaI2JOfzLHRggLRjUSvsM")
+			.param("key", "")
 		.when()
 			.get("/distancematrix/json")
 		.then()
@@ -37,7 +37,7 @@ public class GetRequest_Demo {
 			.param("units", "imperial")
 			.param("origins", "Washington,DC")
 			.param("destinations", "New+York+City,NY")
-			.param("key", "AIzaSyAiwRTkeB_i4vVaI2JOfzLHRggLRjUSvsM")
+			.param("key", "")
 		.when()
 			.get("/distancematrix/json");
 	  
