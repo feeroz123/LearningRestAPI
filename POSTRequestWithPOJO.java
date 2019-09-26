@@ -43,7 +43,7 @@ public class POSTRequestWithPOJO {
 		// jackson or gson -> They serialize the object into JSON format
 		//Response res = 
 		given()
-			.queryParam("key", "AIzaSyAFNxOzcDNEZ9coJzPc_9N-CA8Euun2fDA")
+			.queryParam("key", "")
 			.body(places)
 		.when()
 			.post("/place/add/json")
