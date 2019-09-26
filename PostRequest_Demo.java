@@ -20,7 +20,7 @@ public class PostRequest_Demo {
 	@Test
 	public static void postReqeustDemo() {
 		given()
-			.queryParam("key", "AIzaSyAiwRTkeB_i4vVaI2JOfzLHRggLRjUSvsM")
+			.queryParam("key", "")
 			.body("{"
 				+ "\"location\": {"
 				+ "\"lat\": -33.8669710,"
