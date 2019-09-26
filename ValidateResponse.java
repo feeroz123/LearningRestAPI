@@ -22,7 +22,7 @@ public class ValidateResponse {
 				.param("units", "imperial")
 				.param("origins", "Washington,DC")
 				.param("destinations", "New+York+City,NY")
-				.param("key", "AIzaSyAiwRTkeB_i4vVaI2JOfzLHRggLRjUSvsM")
+				.param("key", "")
 			.when()
 				.get("/distancematrix/json")
 			.then()
